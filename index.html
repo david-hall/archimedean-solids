@@ -24,8 +24,10 @@
   <meta property="og:url"    content="https://ThynStyx.github.io/archimedean-solids/"/>
   <link rel="canonical"         href="https://ThynStyx.github.io/archimedean-solids/">
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-  <!-- Enable the vzome-viewer custom element -->
-  <script type="module" src="https://www.vzome.com/modules/vzome-viewer.js"></script>
+  <!-- Lock in version 352 of the vzome-viewer custom element because subsequent
+   versions at least up to 371 (current) don't maintain the camera position or
+   zoom level when switching src or scene. -->
+  <script type="module" src="https://www.vzome.com/modules/r352/vzome-viewer.js"></script>
   <!-- Enable the vzome-post-processor custom element -->
   <script type="module" src="./vzome-post-processor.js"></script>
 
